@@ -1,0 +1,82 @@
+// DesktopFirst - responsive
+.container {
+  max-width: $width-max;
+  margin: 0 auto;
+
+  background-color: #999999;
+
+  @media (max-width: $bp-1+px) {
+    max-width: 100%;
+    padding: 0 $padding-bp-1;
+  }
+}
+
+// DesktopFirst - break point
+/*
+.container {
+  max-width: $width-max;
+  margin: 0 auto;
+
+  background-color: #666;
+
+  @media (max-width: $bp-1+px) {
+    max-width: $width-bp-1;
+    padding: 0 $padding-bp-1;
+  }
+
+  @media (max-width: $bp-2+px) {
+    max-width: $width-bp-2;
+    padding: 0 $padding-bp-2;
+  }
+
+  @media (max-width: $bp-3+px) {
+    max-width: $width-bp-3;
+    padding: 0 $padding-bp-3;
+  }
+
+  @media (max-width: $bp-4+px) {
+    max-width: $width-min;
+    padding: 0 $padding-width-min;
+  }
+} */
+
+
+// Mobile first - responsive
+/*
+.container {
+  width: auto;
+  padding: 0 $padding-width-min;
+
+  @media (min-width: $bp-4+px) {
+    width: $width-max;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+ */
+
+// Mobile first - break point
+/*
+.container {
+  width: auto;
+  padding: 0 $padding-width-min;
+
+  @media (min-width: $bp-1+px) {
+    width: $width-bp-1;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  @media (min-width: $bp-2+px) {
+    width: $width-bp-2;
+  }
+
+  @media (min-width: $bp-3+px) {
+    width: $width-bp-3;
+  }
+
+  @media (min-width: $bp-4+px) {
+    width: $width-max;
+  }
+}
+ */

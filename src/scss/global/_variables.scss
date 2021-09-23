@@ -1,0 +1,99 @@
+
+//FOLDER
+$folder-images: "../img/";         // путь к изображениям
+$folder-fonts:  "../fonts/";       // путь к шрифтам
+
+
+//PADDING
+$p-w-min: 15;
+$p-w-max: 15;
+$p-bp-1:  15;
+$p-bp-2:  15;
+$p-bp-3:  15;
+
+$padding-width-min: $p-w-min + px;
+$padding-width-max: $p-w-max + px;
+$padding-bp-1:      $p-bp-1 + px;
+$padding-bp-2:      $p-bp-2 + px;
+$padding-bp-3:      $p-bp-3 + px;
+
+//SIZE
+$w-min: 320;
+$w-max: 1200;
+$w-layout: 1920;
+
+//DesktopFirst
+$w-bp-1: 970;
+$w-bp-2: 750;
+$w-bp-3: 420;
+
+//Mobile first
+// $w-bp-1: 420;
+// $w-bp-2: 750;
+// $w-bp-3: 970;
+
+$width-min: $w-min + px;
+$width-max: $w-max + px;
+$width-layout: $w-layout + px;
+
+$width-bp-1: $w-bp-1 + px;
+$width-bp-2: $w-bp-2 + px;
+$width-bp-3: $w-bp-3 + px;
+
+
+//BREAK POINT
+
+//DesktopFirst
+$bp-1: $w-max + ($p-bp-1 * 2);
+$bp-2: 991.98;
+$bp-3: 767.98;
+$bp-4: 479.98;
+
+//Mobile first
+// $bp-1: 479.98;
+// $bp-2: 767.98;
+// $bp-3: 992.98;
+// $bp-4: $w-max + ($p-w-max * 2);
+
+
+//RETINA
+// $retina-dpi: "min-resolution: 144dpi";
+// $retina-dppx: "min-resolution: 1.5dppx";
+
+
+//COLOR
+$color-black: #000000;
+$color-white: #ffffff;
+// $color-primary: ;
+// $color-secondry: ;
+// $color-dark: ;
+// $color-light: ;
+
+//FONT
+$font-family-base: "Arial", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 140%;
+$font-weight-base: 400;
+$font-color-base: $color-black;
+
+//BACKGROUND
+$body-bg-color: $color-white;
+
+//TRANSITION
+
+//BORDER
+
+//FORM
+
+//fieldset
+//legend
+//lebel
+//input-text
+//textarea
+//radio
+//checkbox
+
+//BUTTON
+
+//TABLE
+

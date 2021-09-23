@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+    <!-------------------- head -------------------->
+
+@@include('html/_head.html', {
+  'title': ''
+})
+
+  <body class="page__body  page-body">
+    <div class="page__wrapper">
+
+
+      <!----------------- svg-sprite ----------------->
+<!--       <div class="visually-hidden">
+        @include('img/svg-sprite/sprite.svg')
+      </div> -->
+
+      <!------------------- header ------------------->
+      @@include('html/_header.html', {})
+
+        <!-- 'active-link': 'work'       -->
+        <!-- 'link-index': '', -->
+        <!-- 'link-work': 'href="work.html"', -->
+
+      <!------------------- content ------------------>
+
+      <main class="page__main  page-main">
+
+        <div class="container">
+
+          <h1 class="main-title">Стартовый шаблон</h1>
+
+          <nav class="main-nav"></nav>
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="examples/008-geometric-shapes.html">08. Геометрические фигуры на HTML и CSS // Треугольник стрелка круг трапеция и другие</a></li>
+            <li class="main-nav__item"><a href="examples/013-fullscreen.html">13. Полноэкранный (fullscreen) блок на CSS и HTML</a></li>
+            <li class="main-nav__item"><a href="examples/014-circular-graph-with-timer.html">14. Круговой график с таймером на CSS и HTML</a></li>
+            <li class="main-nav__item"><a href="examples/016-dynamic-adaptive.html">16. Динамический адаптив // Быстрая адаптация сложных объектов на JavaScript</a></li>
+            <li class="main-nav__item"><a href="examples/017-leaving-object-outside-grid.html">17. Отзывчивый выход объекта за пределы сетки CSS HTML. Интересный случай с контейнером.</a></li>
+            <li class="main-nav__item"><a href="examples/018-modal.html">18. Модальные окна (попапы) на HTML CSS JavaScript. Всплывающие окна</a></li>
+            <li class="main-nav__item"><a href="examples/019-block-animation.html">19. Анимация при прокрутке (скролле) страницы на HTML CSS и JavaScript</a></li>
+            <li class="main-nav__item"><a href="examples/020-form.html">20. Отправка формы на почту. Верстка валидация и отправка формы без перезагрузки. AJAX. PHPMailer.</a></li>
+            <li class="main-nav__item"><a href="examples/022-slider-swiper.html">22. Слайдер SWIPER. Подробный курс. Подключение настройка примеры.</a></li>
+            <li class="main-nav__item"><a href="examples/023-full-screen-landingpage.html">23. Адаптивная верстка полноэкранного лендинга с навигацией и параллакс эффектом на базе слайдера Swiper</a></li>
+            <li class="main-nav__item"><a href="examples/025-star-rating.html">25. Звездный рейтинг. Все варианты! От простого без JavaScript к сложному с AJAX.</a></li>
+            <li class="main-nav__item"><a href="examples/026-menu.html">26. Меню бургер на чистом JavaScript. Многоуровневое меню и плавная прокрутка к разделу на HTML CSS JS</a></li>
+            <li class="main-nav__item"><a href="examples/027-lazy-loading.html">27. Lazy Loading (ленивая загрузка). Объяснение и практические примеры на JavaScript. Атрибут loading.</a></li>
+            <li class="main-nav__item"><a href="examples/028-adaptive-video.html">28. Адаптивное видео и видеоролик в качестве фона. Вставка видео/аудио на сайт. HTML-теги VIDEO и AUDIO.</a></li>
+            <li class="main-nav__item"><a href="examples/029-movement.html">29. Параллакс эффект при движении мыши и скролле сайта. Без библиотек и дополнений. HTML CSS JavaScript.</a></li>
+            <li class="main-nav__item"><a href="examples/030-spoiler.html">30. Спойлер и аккордеон на HTML CSS и JavaScript, с возможностью включения на определенной ширине экрана</a></li>
+
+            <li class="main-nav__item"><a href="examples/100-ready-blocks.html">100. Готовые блоки</a></li>
+            <li class="main-nav__item"><a href="examples/101-tabs.html">101. Табы</a></li>
+            <li class="main-nav__item"><a href="examples/102-filters.html">102. Фильтр</a></li>
+            <li class="main-nav__item"><a href="examples/103-gallery.html">103. Галилея</a></li>
+            <li class="main-nav__item"><a href="examples/104-adaptive-image.html">104. Адаптивные изображения</a></li>
+            <li class="main-nav__item"><a href="examples/105-maps.html">105. Подключение карт</a></li>
+            <li class="main-nav__item"><a href="examples/106-hamburgers.html">106. Гамбургеры</a></li>
+            <li class="main-nav__item"><a href="examples/107-forms.html">107. Работа с формами</a></li>
+          </ul>
+
+        </div>
+
+      </main>
+
+
+    <!------------------- footer ------------------->
+    @@include('html/_footer.html', {})
+
+    </div>  <!-- page-body__wrapper -->
+
+    <!---------------- modal-windows --------------->
+    <!-- @include('html/_modal.html', {}) -->
+
+    <!------------- script-connection -------------->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
