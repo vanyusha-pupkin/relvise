@@ -19,8 +19,8 @@ $padding-bp-3:      $p-bp-3 + px;
 
 //SIZE
 $w-min: 320;
-$w-max: 1200;
-$w-layout: 1920;
+$w-max: 1045;
+$w-layout: 1440;
 
 //DesktopFirst
 $w-bp-1: 970;
@@ -64,17 +64,20 @@ $bp-4: 479.98;
 //COLOR
 $color-black: #000000;
 $color-white: #ffffff;
-// $color-primary: ;
-// $color-secondry: ;
+$color-primary: #FF7B47;
+$color-secondry: #0D5C63;
 // $color-dark: ;
 // $color-light: ;
+$text-color: #252B42;
+$second-text-color: #737373;
+$light-text-color: $color-white;
 
 //FONT
-$font-family-base: "Arial", sans-serif;
-$font-size-base: 16px;
+$font-family-base: "Montserrat", "Arial", sans-serif;
+$font-size-base: 14px;
 $line-height-base: 140%;
-$font-weight-base: 400;
-$font-color-base: $color-black;
+$font-weight-base: 500;
+$font-color-base: $second-text-color;
 
 //BACKGROUND
 $body-bg-color: $color-white;
